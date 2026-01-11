@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exploring Github</title>
+    <style>
+        .first_div {
+            background-color: lightpink;
+            padding: 10px;
+            border: 6px solid black;
+            box-shadow: 6px 6px 4px 3px gray;
+            margin: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 0px 25px 0px;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>Exploring Github</h1>
-    
+    <div class="first_div">
+        <h1>Exploring Github</h1>
+        <p>
+            echo "# my-third-github" >> README.md
+            git init
+            git add README.md
+            git commit -m "first commit"
+            git branch -M main
+            git remote add origin https://github.com/bayjidalom/my-third-github.git
+            git push -u origin main
+        </p>
+    </div>
+
+    <div class="first_div">
+        <h1>More About:</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius numquam officiis molestiae, quod sapiente, ab
+            magnam, voluptates nostrum dolores architecto illo vitae obcaecati minima inventore earum voluptatibus odit
+            quidem voluptatum optio esse sed necessitatibus. Minima a eaque, nam, beatae asperiores quo aspernatur
+            doloribus distinctio delectus voluptas suscipit consequuntur, labore error! Molestias voluptas iste non
+            magnam repudiandae exercitationem tempora, facere minima.</p>
+    </div>
+
 </body>
+
 </html>
